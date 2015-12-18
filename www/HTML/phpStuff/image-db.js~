@@ -1,0 +1,10 @@
+//Javascript for assignment 8
+
+function showPic(id)
+{
+    var output "<img src = "+
+	"imageviewthumb.php?id="+id+
+	"&view=full"+"alt='full image'"+
+	"/>\n";
+    $("#imageDiv").html(output);
+}

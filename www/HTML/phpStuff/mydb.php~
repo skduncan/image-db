@@ -1,0 +1,12 @@
+<?php
+
+	$host = "db01.cs.stedwards.edu";
+	$user = "sduncan";
+	$pwd = "sJJK6dDqLD";
+	$database = "sduncan";
+	include "../adodb5/adodb.inc.php";
+	$db = newADOConnection('mysqli');
+	$db -> Connect($host, $user, $pwd, $database);
+	return $db;
+
+?>

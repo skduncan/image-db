@@ -1,0 +1,128 @@
+/* Generic Selectors */
+
+body {
+
+margin:  0 5%;
+
+font-family: verdana, Georgia, arial, helvetica, sans-serif;
+
+font-size: 1em;  /* default size */
+
+color: #00223A;  /* text color */
+
+background: #00407F; /* background color */
+
+}
+
+.heading {
+      background:#A4AAB0;
+      color: #FFA219; 
+      padding: 1%;
+      margin: 1% 13% 1% 13%;
+      padding: 2%;
+      text-align:center;
+}
+.content {
+    background: #0069B2;
+    color: #FFA219;
+    margin: 1% 13% 1% 13%;
+    padding: 2%;
+    overflow:auto;
+}
+
+.main1a{
+    background: #0069B2;
+    color: #FFA219;
+    margin: 1% 13% 1% 13%;
+    padding: 2%;
+    overflow:auto;
+}
+
+.main1b{
+    background: #0069B2;
+    color: #FFA219;
+    margin: 1% 13% 1% 13%;
+    padding: 2%;
+    overflow:auto;
+}
+
+.main1c{
+    background: #0069B2;
+    color: #FFA219;
+    margin: 1% 13% 1% 13%;
+    padding: 2%;
+    overflow:auto;
+}
+
+.main1d{
+    background: #0069B2;
+    color: #FFA219;
+    margin: 1% 13% 1% 13%;
+    padding: 2%;
+    overflow:auto;
+}
+
+.errorDiv{
+    background: #0069B2;
+    color: #FFA219;
+    margin: 1% 13% 1% 13%;
+    padding: 2%;
+    overflow:auto;
+}
+
+.border { 
+          margin: 15% 2%;
+          border: 4px solid black;
+          padding: 5% 5%;
+          overflow:auto;
+          text-align:center;
+	  float:left;
+	  background: #00407F;
+	  border-color: #FFA219;
+  }
+
+.imageDiv
+      {
+	width: 50%;
+	border: 2px solid black;
+	border-color: #FFA219;
+	float:right;
+	border: 1px solid black;
+      }
+
+.floatleft {
+        width: 40%;
+	padding:5%, 5%;
+	float:left;
+	overflow:auto;
+	background: #00407F;
+	border: 4px solid black;
+	border-color: #FFA219;
+	text-align:center;
+      }
+
+.clear {
+       clear:both;
+       }
+
+.footer{
+        font-size:.8em;
+	margin:5% 1% 1% 1%;
+/*	border-style: solid;
+        border-width: thin;
+        border-color:white;
+*/
+	border-top: 1px solid black;
+        padding:1%;
+        
+}
+/* now change anchor tag colors */
+a:link { 
+         color: yellow;
+    }
+a:visited { 
+            color: red;
+          }
+a:hover { background:black;
+          color:#999699;
+        }
